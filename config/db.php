@@ -2,7 +2,7 @@
 $host = "db.taitaja2026.nstrim.app";
 $dbname = "competitor20_semifinals-module";
 $user = "competitor20";
-$pass = "AHKL5BFP";
+$pass = "";
 
 try {
     $pdo = new PDO(
@@ -16,4 +16,5 @@ try {
     );
 } catch (PDOException $e) {
     die("Database connection failed");
+
 }
